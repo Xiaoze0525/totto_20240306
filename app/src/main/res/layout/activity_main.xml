@@ -11,7 +11,7 @@
         android:id="@+id/txv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ryan Hung very sugar"
+        android:text="Hello"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,15 +19,12 @@
         android:textSize="34sp"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:onClick="happy"
+        android:text="樂透"
+        android:textSize="30sp" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="click" />
 
 </LinearLayout>
